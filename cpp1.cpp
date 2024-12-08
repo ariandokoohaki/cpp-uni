@@ -23,7 +23,7 @@ public:
         return false;
     }
 
-    int max2(int araye], int size) {
+    int max2(int araye[], int size) {
         if(size == 0) return 0;
         int maximum = araye[0];
         for(int i = 1; i < size; i++) {
